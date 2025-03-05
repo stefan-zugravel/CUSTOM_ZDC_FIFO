@@ -1,0 +1,191 @@
+
+**** 05/26/21 16:45:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../THS3491.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ns 0 0.01ns 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source THS3491
+R_Rload         OUT 0 R_NOISELESS 100
+V_V8         NPD 0 15
+V_V2         VCC 0 15
+V_V10         IN+ 0  AC 1
++SIN 0 1 200e6 0 0 0
+V_V5         VEE 0 -15
+X_U1         IN+ N1104241 OUT NPD VCC VEE 0 THS3491RGT
+R_Rfeedback         N1104241 OUT  576 TC=0,0 
+R_Rgain         0 N1104241  143 TC=0,0 
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 05/26/21 16:45:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.D_IN_CLMP  X_U1.Dpdn       
+          IS   10.000000E-15   10.000000E-15 
+           N     .02                         
+          RS    1                            
+
+
+               X_U1.X_U108.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-12 
+
+
+               X_U1.X_U107.DVNF                X_U1.X_U123.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF  100.000000E-12                   31.622780E-12 
+
+
+**** 05/26/21 16:45:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_NOISELESS     
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 05/26/21 16:45:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U126.SW1pFULLp 
+         RON  200.000000E+03 
+        ROFF    1.000000E+09 
+         VON     .1          
+        VOFF    0            
+
+
+               X_U1.X_U126.SW1pFULLn 
+         RON  200.000000E+03 
+        ROFF    1.000000E+09 
+         VON    -.1          
+        VOFF    0            
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 05/26/21 16:45:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           7
+  External (NCNODS)                 =         143
+  Total (NUMNOD)                    =         147
+
+Total device count (NUMEL)          =         227
+  Capacitors (C)                    =          21
+  Diodes (D)                        =          11
+  VCVS (E)                          =          88
+  CCCS (F)                          =           1
+  VCCS (G)                          =          18
+  Current Sources (I)               =           6
+  Inductors (L)                     =           6
+  Resistors (R)                     =          58
+  VSwitches (S)                     =           2
+  Voltage Sources (V)               =          10
+
+Number of subcircuits (X)           =          23
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         251
+  Initial no. elements (NTTAR)      =         717
+  No. elements w/ fillin (NTTBR)    =         717
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      98.862
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.30
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .14
+  License check-out time            =       45.19
+  Total job time (using Solver 1)   =        1.31
+

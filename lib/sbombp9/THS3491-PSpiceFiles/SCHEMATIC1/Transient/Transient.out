@@ -1,0 +1,317 @@
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../THS3491.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ns 0 0.01ns 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([OUT])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source THS3491
+R_Rload         OUT 0 R_NOISELESS 100
+V_V8         NPD 0 15
+V_V2         VCC 0 15
+V_V10         IN+ 0  AC 1
++SIN 0 1 200e6 0 0 0
+V_V5         VEE 0 -15
+X_U1         IN+ N1104241 OUT NPD VCC VEE 0 THS3491RGT
+R_Rfeedback         N1104241 OUT  576 TC=0,0 
+R_Rgain         0 N1104241  143 TC=0,0 
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.D_IN_CLMP  X_U1.Dpdn       
+          IS   10.000000E-15   10.000000E-15 
+           N     .02                         
+          RS    1                            
+
+
+               X_U1.X_U108.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-12 
+
+
+               X_U1.X_U107.DVNF                X_U1.X_U123.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF  100.000000E-12                   31.622780E-12 
+
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_NOISELESS     
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U126.SW1pFULLp 
+         RON  200.000000E+03 
+        ROFF    1.000000E+09 
+         VON     .1          
+        VOFF    0            
+
+
+               X_U1.X_U126.SW1pFULLn 
+         RON  200.000000E+03 
+        ROFF    1.000000E+09 
+         VON    -.1          
+        VOFF    0            
+
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    0.0000  (  NPD)   15.0000  (  OUT) 2.588E-06  (  VCC)   15.0000      
+
+(  VEE)  -15.0000  (X_U1.EN)    1.0000                   (N1104241)     .0013   
+
+(X_U1.LOW)    0.0000                  (X_U1.MID)    0.0000                      
+
+(X_U1.REF)    0.0000                  (X_U1.FULL)    1.0000                     
+
+(X_U1.GNDF)    0.0000                 (X_U1.SHDN)    1.0000                     
+
+(X_U1.VICM) 672.7E-06                 (X_U1.VIMON)-2.305E-06                    
+
+(X_U1.IN_COMP)    1.0000              (X_U1.INPUT_TF) 3.913E-09                 
+
+(X_U1.N1559762) 3.913E-09             (X_U1.N1559770) 4.117E-09                 
+
+(X_U1.N1559776) 3.743E-09             (X_U1.N1559782) 3.743E-09                 
+
+(X_U1.N1560200) 3.913E-09             (X_U1.N1560610) 7.827E-09                 
+
+(X_U1.N1560624)    1.0000             (X_U1.N1560848)    1.0000                 
+
+(X_U1.N1561036)   15.0000             (X_U1.N1561220) 999.4E-06                 
+
+(X_U1.N1561272)   15.0000             (X_U1.N1561294) 999.4E-06                 
+
+(X_U1.N1561298)    0.0000             (X_U1.N1561570)    0.0000                 
+
+(X_U1.N1561616)    0.0000             (X_U1.N1561920)    1.0000                 
+
+(X_U1.N1562100)    1.0000             (X_U1.N1562372)     .5000                 
+
+(X_U1.N1563258) 150.0E-09             (X_U1.N1563334)    0.0000                 
+
+(X_U1.N1622379) 808.3E-06             (X_U1.N1623290) 808.3E-06                 
+
+(X_U1.OUT_CMRR)    0.0000             (X_U1.X_U107.3)    0.0000                 
+
+(X_U1.X_U107.4)    0.0000             (X_U1.X_U107.5)    0.0000                 
+
+(X_U1.X_U107.6)    0.0000             (X_U1.X_U107.7)     .8338                 
+
+(X_U1.X_U107.8)     .8338             (X_U1.X_U108.3)    0.0000                 
+
+(X_U1.X_U108.4)    0.0000             (X_U1.X_U108.5)    0.0000                 
+
+(X_U1.X_U108.6)    0.0000             (X_U1.X_U108.7)     .8338                 
+
+(X_U1.X_U108.8)     .8338             (X_U1.X_U121.1) 238.3E-06                 
+
+(X_U1.X_U121.2)    0.0000             (X_U1.X_U121.3) 300.0E-06                 
+
+(X_U1.X_U121.4)    0.0000             (X_U1.X_U121.6)-538.3E-06                 
+
+(X_U1.X_U123.3)    0.0000             (X_U1.X_U123.4)    0.0000                 
+
+(X_U1.X_U123.5)    0.0000             (X_U1.X_U123.6)    0.0000                 
+
+(X_U1.X_U123.7)     .8338             (X_U1.X_U123.8)     .8338                 
+
+(X_U1.OUTPUT_TF) 3.743E-09            (X_U1.X_U105.N1)    1.0000                
+
+(X_U1.X_U105.N2)    1.0000            (X_U1.X_U105.N3)    1.0000                
+
+(X_U1.X_U105.N4)    1.0000            (X_U1.X_U106.N1)    1.0000                
+
+(X_U1.X_U106.N2)    1.0000            (X_U1.X_U106.N3)    1.0000                
+
+(X_U1.X_U106.N4)    1.0000            (X_U1.X_U127.N1)   13.1000                
+
+(X_U1.X_U127.N2)  -13.1000            (X_U1.X_ZOUT.P1)    0.0000                
+
+(X_U1.X_ZOUT.P2)    -.0080            (X_U1.X_ZOUT.Z1)    0.0000                
+
+(X_U1.X_ZOUT.Z2)    0.0000            (X_U1.AND_CNTRLS)    0.0000               
+
+(X_U1.INPUTN_GBW)-6.370E-06           (X_U1.INPUTP_GBW) 6.370E-06               
+
+(X_U1.INPUT_OUTN)     .0013           (X_U1.INPUT_OUTP) 150.0E-09               
+
+(X_U1.N_AND_SHDN)    1.0000           (X_U1.X_U127.NM1) -163.7500               
+
+(X_U1.X_U127.NM2) -163.7500           (X_U1.X_U127.NR1)    -.9259               
+
+(X_U1.X_U127.NR2)    -.9259           (X_U1.X_U127.NV1)  101.5300               
+
+(X_U1.X_U127.NV2) -101.5300           (X_U1.INPUTN_CMRR) 808.3E-06              
+
+(X_U1.INPUTN_ICMR) 808.3E-06          (X_U1.INPUTP_CMRR)     .0010              
+
+(X_U1.INPUTP_ICMR)     .0010          (X_U1.X_U105.NIN1)   14.9990              
+
+(X_U1.X_U105.NIN2)   15.0010          (X_U1.X_U105.NVCC)   30.0000              
+
+(X_U1.X_U106.NIN1)   15.0000          (X_U1.X_U106.NIN2)   15.0000              
+
+(X_U1.X_U106.NVCC)   30.0000          (X_U1.X_U113.NPDZ)    1.0000              
+
+(X_U1.X_U121.NVCC)    3.0000          (X_U1.X_U121.NVSS)    3.0000              
+
+(X_U1.X_U124.NVCC)   30.0000          (X_U1.INPUT_VCLAMP) 3.743E-09             
+
+(X_U1.OUTPUT_CLAMP) 3.743E-09         (X_U1.X_U126.NHIZN) 3.913E-09             
+
+(X_U1.X_U127.HRNEG)  -13.6000         (X_U1.X_U127.HRPOS)   13.6000             
+
+(X_U1.X_U127.NVMID)    0.0000         (X_U1.X_ZOUT.N_SUM)    -.0083             
+
+(X_U1.INN_OUT_CNTRL)    1.0000        (X_U1.INPUT_AMMETER) 2.588E-06            
+
+(X_U1.INP_OUT_CNTRL)    1.0000        (X_U1.X_U124.NDRIFT)    0.0000            
+
+(X_U1.X_U124.NSHIFT) 672.7E-12        (X_U1.CNTRL_AND_SHDN)    1.0000           
+
+(X_U1.X_U110.NIIB_HI)    1.0000       (X_U1.X_U111.NIIB_HI)    1.5000           
+
+(X_U1.X_U113.NPDZ_HI)     .5000       (X_U1.X_U113.NREF_HI)    1.0000           
+
+(X_U1.X_ZOUT.N165882)    -.0083       (X_U1.X_ZOUT.N166300)    -.0080           
+
+(X_U1.X_ZOUT.N169815)    0.0000       (X_U1.X_ZOUT.N173483)    -.0083           
+
+(X_U1.X_ZOUT.N176951)-258.5E-06       (X_U1.X_ZOUT.N181461)    -.0080           
+
+(X_U1.X_ZOUT.N190211)    -.0080       (X_U1.X_U110.NIIB_LOW)    0.0000          
+
+(X_U1.X_U111.NIIB_LOW)    0.0000      (X_U1.X_U113.NPDZ_LOW)    1.0000          
+
+(X_U1.X_U113.NREF_LOW)    1.0000      (X_U1.X_U126.N1pFULLn)  -13.7000          
+
+(X_U1.X_U126.N1pFULLp)   13.7000      (X_U1.X_U124.NVCCSHIFT) 30.00E-06         
+
+(X_U1.X_ZOUT.AOL_ZO_IN)-2.585E-06     (X_U1.X_ZOUT.OUT_E4_ZO)    -.0083         
+
+(X_U1.X_U126.OUTG1pFULL) 3.913E-09    (X_U1.X_U127.NVOUT1_MAX)   13.6000        
+
+(X_U1.X_U127.NVOUT1_MIN)  -13.6000    (X_U1.X_U127.NVOUT2_MAX)  101.5300        
+
+(X_U1.X_U127.NVOUT2_MIN) -101.5200    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V8        -1.500E-05
+    V_V2        -1.680E-02
+    V_V10        1.500E-06
+    V_V5         1.680E-02
+    X_U1.VREF    0.000E+00
+    X_U1.V_V5    0.000E+00
+    X_U1.V_V6    0.000E+00
+    X_U1.V_V4    0.000E+00
+    X_U1.X_F1.VF_F1   1.274E-05
+    X_U1.X_U103.VSENSE  -2.305E-06
+
+    TOTAL POWER DISSIPATION   5.04E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/26/21 16:45:32 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232073\Downloads\THS3491\ths3491-pspicefiles\schematic1\transient.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       46.55
+  Total job time (using Solver 1)   =        1.75
+

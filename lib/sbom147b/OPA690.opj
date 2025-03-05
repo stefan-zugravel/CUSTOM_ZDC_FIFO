@@ -1,0 +1,80 @@
+(ExpressProject "OPA690"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\opa690.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\opa690.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\opa690-pspicefiles\dc\dc.net"
+      (Type "Report"))
+    (File ".\opa690-pspicefiles\ac\ac.net"
+      (Type "Report"))
+    (File ".\opa690-pspicefiles\transient\transient.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa690-pspicefiles\transient\transient.sim"
+        (DisplayName "TRANSIENT-TRANSIENT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa690-pspicefiles\ac\ac.sim"
+        (DisplayName "AC-AC")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\opa690-pspicefiles\dc\dc.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa690-pspicefiles\dc\dc.sim"
+        (DisplayName "DC-DC")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\opa690.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\opa690.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (OPA690
+      (FullPartName "OPA690.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\OPA690\RELEASE_SANKALP\PSPICE\OPA690_PSPICE_AIO\OPA690.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Model Libraries"
+         "C:\ELABTRANS_WS\ELABTRANS_DS\Part_Numbers\OPA690\Release_Sankalp\PSPICE\OPA690_PSPICE_AIO\opa690.lib"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 442"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -5 -30 140 1432 145 622")
+        (Scroll "0 176")
+        (Zoom "109")
+        (Occurrence "/"))
+      (Path
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\OPA690\RELEASE_SANKALP\PSPICE\OPA690_PSPICE_AIO\OPA690.DSN")
+      (Schematic "DC")
+      (Page "PAGE1")))
+  (MPSSessionName "x0247018"))
