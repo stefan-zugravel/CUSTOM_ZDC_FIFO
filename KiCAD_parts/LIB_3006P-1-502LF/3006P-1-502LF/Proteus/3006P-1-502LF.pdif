@@ -1,0 +1,100 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3006P-1-502LF"
+   (description "Bourns 3006 Series 15-Turn Through Hole Trimmer Resistor with Pin Terminations, 5k +/-10% 0.75W +/-100ppm/C Side Adjust")
+   (family "ANA")
+   (package "3006P_1")
+   (attribute "Datasheet Link" "")
+   (attribute "Mouser Part Number" "652-3006P-1-502-LF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3006P-1-502LF?qs=GxOdHD6aiJ72YmubKZoWfw%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "3006P-1-502LF")
+   (gate
+    (symbol "3006P-1-502LF")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "3006P-1-502LF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "3006P_1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt 0 4.83)
+      (pt 19.05 4.83)
+      (pt 19.05 0)
+      (pt 0 0)
+      (pt 0 4.83))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 0 0.255)
+      (pt 0 4.83)
+      (pt 19.05 4.83)
+      (pt 19.05 0)
+      (pt 0 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.5)
+     (circle
+      (pt 3.01743 5.72267) (pt 3.41257 5.72267)
+     )
+    )
+   )
+   (leg 1 (pt 3.175 3.94) (padstack 0))
+   (leg 2 (pt 10.795 1.4) (padstack 0))
+   (leg 3 (pt 15.875 3.94) (padstack 0))
+   (padstack 0
+    (hole 0.74)
+    (plated true)
+    (pad (layer TCOP) (round 1.24))
+    (pad (layer INNER) (round 1.24))
+    (pad (layer BCOP) (round 1.24))
+   )
+   (model "3006P-1-502LF.stp"
+    (euler 0 0 180)
+    (offset 15.949999809265137 4.03000020980835 0)
+   )
+  )
+ )
+)

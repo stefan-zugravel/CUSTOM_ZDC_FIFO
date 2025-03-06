@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=3006P-1-502LF
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2017-03-22 10:35:52
+Downloaded=2025-03-06 13:35:47
+3D=Y

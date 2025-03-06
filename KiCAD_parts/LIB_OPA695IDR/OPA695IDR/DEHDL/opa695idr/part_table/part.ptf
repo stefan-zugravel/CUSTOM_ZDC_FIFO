@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA695IDR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA695IDR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-OPA695IDR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA695IDR?qs=wgAEGBTxy7loIslyoQGyeQ%3D%3D", "High Speed Operational Amplifiers Ultra-Wideband Curre nt Feedback", "https://www.ti.com/lit/ds/symlink/opa695.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1639563683279&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%", "1.75 mm"
+END_PART
+
+END.

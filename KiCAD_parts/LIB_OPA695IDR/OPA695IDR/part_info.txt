@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA695IDR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-12-15 13:25:13
+Downloaded=2025-03-06 13:09:00
+3D=Y

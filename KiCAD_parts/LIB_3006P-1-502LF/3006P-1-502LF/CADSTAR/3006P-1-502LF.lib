@@ -1,0 +1,16 @@
+.3006P-1-502LF :1 ;Bourns 3006 Series 15-Turn Through Hole Trimmer Resistor with Pin Terminations, 5k +/-10% 0.75W +/-100ppm/C Side Adjust
+"3006P_1"
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN 3006P-1-502LF
+~!Mouser Part Number (652-3006P-1-502-LF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/3006P-1-502LF?qs=GxOdHD6aiJ72YmubKZoWfw%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (3006P-1-502LF)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (3006P-1-502LF)
+"3006P-1-502LF"
+1.1!U 2.1!U 3.1!U 
