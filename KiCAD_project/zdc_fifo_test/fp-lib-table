@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library_footprints")(type "KiCad")(uri "/Users/stefan/work/CUSTOM_ZDC_FIFO/KiCAD_project/Library_footprints.pretty")(options "")(descr ""))
+)

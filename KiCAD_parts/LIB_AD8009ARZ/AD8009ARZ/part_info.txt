@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD8009ARZ
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=4.2
+Released=2020-12-29 05:10:15
+Downloaded=2025-03-07 09:27:24
+3D=Y

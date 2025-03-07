@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AD8009ARZ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "AD8009ARZ" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "584-AD8009ARZ", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8009ARZ?qs=%2FtpEQrCGXCztmOs2ZWYkdw%3D%3D", "AD8009ARZ, Fast Operational Amplifier Current Feedback,, 9V, 8-Pin SOIC", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-75280.pdf", "1.75 mm"
+END_PART
+
+END.
