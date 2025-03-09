@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L7805ACD2T-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-15-13:47:07)
+    (mountForm default
+        (footprintRef "L7805ACD2TTR")
+        (spec "System")
+    )
+)

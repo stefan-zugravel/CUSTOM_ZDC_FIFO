@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "L7905ACD2T-TR"
+   (description "Voltage Regulator -5V 1.5A D2PAK L7905ACD2T-TR, Voltage Regulator, Negative 1.5A -5 V, +/-2%, 3-Pin D2PAK")
+   (family "ANA")
+   (package "STB20N95K5")
+   (attribute "Datasheet Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf")
+   (attribute "Mouser Part Number" "511-L7905ACD2T-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7905ACD2T-TR?qs=22WmWNTp1rqzB5VVdeF8cw%3D%3D")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "L7905ACD2T-TR")
+   (gate
+    (symbol "L7905ACD2T-TR")
+    (pin "GND" 1 PP)
+    (pin "IN" 2 IP)
+    (pin "OUT" 3 OP)
+   )
+  )
+  (symbol "L7905ACD2T-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "STB20N95K5"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.1 6.908)
+      (pt 5.1 6.908)
+      (pt 5.1 -2.242)
+      (pt -5.1 -2.242)
+      (pt -5.1 6.908))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.1 9.243)
+      (pt 7.1 9.243)
+      (pt 7.1 -9.657)
+      (pt -7.1 -9.657)
+      (pt -7.1 9.243))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.1 -1.8)
+      (pt -5.1 -2.242)
+      (pt 5.1 -2.242)
+      (pt 5.1 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 -9.2)
+      (arc (pt -2.600 -9.200) (pt -2.600 -9.250) (pt -2.500 -9.150) (start 180.0) (sweep 180.0))
+      (pt -2.5 -9.2)
+      (arc (pt -2.500 -9.200) (pt -2.600 -9.250) (pt -2.500 -9.150) (start 180.0) (sweep .0))
+      (pt -2.6 -9.2))))
+   (leg 1 (pt -2.540 -6.907) (padstack 0))
+   (leg 2 (pt 0.000 3.368) (padstack 2))
+   (leg 3 (pt 2.540 -6.907) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.600 3.500 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 9.750 12.200 0 0 0.000))
+   )
+   (model "L7905ACD2T-TR.stp"
+    (euler 90 0 90)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

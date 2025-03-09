@@ -1,4 +1,4 @@
-24739203402900278
+24747910802492158
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65856,12 +65856,47 @@ Variable Resistor
 3
 3
 Library_footprints
+CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD-1
+
+
+0
+2
+2
+Library_footprints
+CONN-TH_XY126V-5.0-3P
+
+
+0
+3
+3
+Library_footprints
+CONN_EPK.00.250.NTN_LMO
+
+EPL.00.250.NTN 
+0
+5
+5
+Library_footprints
+L7805ACD2TTR
+D2PAK _2025
+Integrated Circuit
+0
+3
+3
+Library_footprints
 SOIC127P600X175-8N
 R-8 (SOIC)
 Integrated Circuit
 0
 8
 8
+Library_footprints
+STB20N95K5
+D²PAK (TO-263)
+Integrated Circuit
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

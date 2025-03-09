@@ -1,0 +1,230 @@
+(footprint "STB20N95K5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "D²PAK (TO-263)")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0.207 0)
+		(layer "F.SilkS")
+		(uuid "5567a600-9dc0-4732-8e59-ea83111bf687")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "STB20N95K5"
+		(at 0 0.207 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a32b5efe-3e33-47fb-82c1-a80ad9a649ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00dad291-e326-469c-8a59-a9a1bdf0bc5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ff5a78-5204-46dc-b7a7-f4b9a02238ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.1 1.8)
+		(end -5.1 2.242)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e9e45d4-1de5-45e3-96f1-6a64831bf542")
+	)
+	(fp_line
+		(start -5.1 2.242)
+		(end 5.1 2.242)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bed6e61-9319-425b-851e-b00f28928167")
+	)
+	(fp_line
+		(start -2.6 9.2)
+		(end -2.6 9.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "260e617e-5a93-48c8-9737-f3343cc79760")
+	)
+	(fp_line
+		(start -2.5 9.2)
+		(end -2.5 9.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "208b7f7a-5bb3-440a-a58c-3075c2379327")
+	)
+	(fp_line
+		(start 5.1 2.242)
+		(end 5.1 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be14b55a-887b-4541-9102-88865f89ef14")
+	)
+	(fp_arc
+		(start -2.6 9.2)
+		(mid -2.55 9.15)
+		(end -2.5 9.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7f1d846-f3ba-4b47-8bb9-67248af782ea")
+	)
+	(fp_arc
+		(start -2.5 9.2)
+		(mid -2.55 9.25)
+		(end -2.6 9.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f270cf4b-f961-4aa5-af79-54254ff4e61a")
+	)
+	(fp_line
+		(start -7.1 -9.243)
+		(end 7.1 -9.243)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "49cd4d64-cec0-466f-add9-4ae9f1ccd07d")
+	)
+	(fp_line
+		(start -7.1 9.657)
+		(end -7.1 -9.243)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ebfe04d-a46d-46c0-aa1b-ae4b85099254")
+	)
+	(fp_line
+		(start -5.1 -6.908)
+		(end 5.1 -6.908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "28bec1dc-d2f8-4d19-a103-f0be565392fe")
+	)
+	(fp_line
+		(start -5.1 2.242)
+		(end -5.1 -6.908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e6efdebc-22d8-4a1f-bcfa-c6e22a7fb062")
+	)
+	(fp_line
+		(start 5.1 -6.908)
+		(end 5.1 2.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8673b5a6-de1a-44a3-8d9c-fe3afe8311a3")
+	)
+	(fp_line
+		(start 5.1 2.242)
+		(end -5.1 2.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "99e167a4-d122-4d81-b7d5-cf887826ac8c")
+	)
+	(fp_line
+		(start 7.1 -9.243)
+		(end 7.1 9.657)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "787a2737-5970-4767-b8ea-dfae38511302")
+	)
+	(fp_line
+		(start 7.1 9.657)
+		(end -7.1 9.657)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "34892b30-9cea-4ee6-aeb5-34739a08bd47")
+	)
+	(pad "1" smd rect
+		(at -2.54 6.907)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a94950d8-ec22-4435-91ec-92a8eac6d117")
+	)
+	(pad "2" smd rect
+		(at 0 -3.368 90)
+		(size 9.75 12.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6ff29be9-5cdf-4eda-a133-04a44daa4d84")
+	)
+	(pad "3" smd rect
+		(at 2.54 6.907)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7abaaf96-0ca4-4589-9a1e-9191d68558fb")
+	)
+	(embedded_fonts no)
+)

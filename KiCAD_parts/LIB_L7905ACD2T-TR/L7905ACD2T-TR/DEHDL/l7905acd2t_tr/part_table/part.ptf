@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L7905ACD2T_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "STMicroelectronics", "L7905ACD2T-TR" (!) = "", "STB20N95K5", "Other", "511-L7905ACD2T-TR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7905ACD2T-TR?qs=22WmWNTp1rqzB5VVdeF8cw%3D%3D", "Voltage Regulator -5V 1.5A D2PAK L7905ACD2T-TR, Voltage Regulator, Negative 1.5A -5 V, +/-2%, 3-Pin D2PAK", "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf"
+END_PART
+
+END.

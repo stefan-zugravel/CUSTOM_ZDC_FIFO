@@ -1,0 +1,16 @@
+.L7805ACD2T-TR :1 ;Voltage Regulator 5V 1A D2PAK STMicroelectronics L78xx L7805ACD2T-TR, Single Linear Voltage Regulator, 1.5A 5 V, +/-2%, 3-Pin D2PAK
+L7805ACD2TTR
+*STM IC
+*NGS
+*PLB 1="INPUT" 2="GND" 3="OUTPUT"
+*MXP 3
+*DFN L7805ACD2T-TR
+~!Mouser Part Number (511-L7805ACD2T-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7805ACD2T-TR?qs=Ctxo64yJVFuOLXlPPZdJUQ%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L7805ACD2T-TR)
+~!Link Datasheet (https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf)
+~!Height (4.83mm)
+~!3D_Model (L7805ACD2T-TR)
+L7805ACD2T-TR
+1.1!U 2.1!U 3.1!U 

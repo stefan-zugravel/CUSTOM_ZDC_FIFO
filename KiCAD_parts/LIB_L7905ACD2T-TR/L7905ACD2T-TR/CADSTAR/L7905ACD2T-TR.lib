@@ -1,0 +1,16 @@
+.L7905ACD2T-TR :1 ;Voltage Regulator -5V 1.5A D2PAK L7905ACD2T-TR, Voltage Regulator, Negative 1.5A -5 V, +/-2%, 3-Pin D2PAK
+STB20N95K5
+*STM IC
+*NGS
+*PLB 1="GND" 2="IN" 3="OUT"
+*MXP 3
+*DFN L7905ACD2T-TR
+~!Mouser Part Number (511-L7905ACD2T-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7905ACD2T-TR?qs=22WmWNTp1rqzB5VVdeF8cw%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L7905ACD2T-TR)
+~!Link Datasheet (http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf)
+~!Height (-)
+~!3D_Model (L7905ACD2T-TR)
+L7905ACD2T-TR
+1.1!G 2.1!I 3.1!Y 

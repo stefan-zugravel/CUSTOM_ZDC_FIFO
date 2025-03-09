@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "STB20N95K5"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "STB20N95K5")
+        (spec "default")
+    )
+)
