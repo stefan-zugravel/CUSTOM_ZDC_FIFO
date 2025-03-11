@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3224W_1_500E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "3224W-1-500E" (!) = "", "3224W1500E", "Other", "652-3224W-1-500E", "https://www.mouser.co.uk/ProductDetail/Bourns/3224W-1-500E?qs=A%2FVUe%2FMZWjxjnF%252BWEnPnCQ%3D%3D", "50 SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3224 Series", "https://www.bourns.com/pdfs/3224.pdf", "5.55 mm"
+END_PART
+
+END.

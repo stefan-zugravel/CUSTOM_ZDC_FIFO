@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "3224W1500E"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "3224W1500E")
+        (spec "default")
+    )
+)

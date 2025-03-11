@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3224W-1-500E
+D 50 SMD Trimmer Potentiometer 0.25W Top Adjust Bourns 3224 Series
+K
+F https://www.bourns.com/pdfs/3224.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "3224W-1-500E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-07-07:45:56)
+    (mountForm default
+        (footprintRef "3224W1500E")
+        (spec "System")
+    )
+)

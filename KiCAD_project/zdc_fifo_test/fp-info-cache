@@ -1,4 +1,4 @@
-24747910802492158
+24749652401552846
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65851,6 +65851,13 @@ Yellow 5381 Series LED
 Library_footprints
 3006P_1
 3006P
+Variable Resistor
+0
+3
+3
+Library_footprints
+3224W1500E
+3224W-1-500E-2
 Variable Resistor
 0
 3

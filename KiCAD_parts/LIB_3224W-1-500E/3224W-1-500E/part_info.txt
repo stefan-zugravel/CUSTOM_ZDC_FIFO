@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=3224W-1-500E
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2023-02-07 07:45:56
+Downloaded=2025-03-10 09:28:58
+3D=Y
