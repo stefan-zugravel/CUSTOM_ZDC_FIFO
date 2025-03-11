@@ -2758,45 +2758,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "da abbassate a 70 circa (68 ohm)\nE il trimmer da 50\nFATTO\n"
+	(text "Questo è da 200ohm\n"
 		(exclude_from_sim no)
-		(at 200.406 19.304 0)
+		(at 169.926 27.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "05d83d4a-a7c6-4020-aabc-b0a19d314295")
+		(uuid "12025a55-a21c-4de3-a308-d4fe4990b683")
 	)
-	(text "10u 100n 1n\n"
+	(text "Questo è da 1k"
 		(exclude_from_sim no)
-		(at 93.218 207.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "314cbd6f-fe25-4262-8349-679036bbbc96")
-	)
-	(text "check max power 0402 resistor\n"
-		(exclude_from_sim no)
-		(at 383.54 229.362 0)
+		(at 266.954 237.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e63df216-cd83-404d-a4c8-6c382e36b7c1")
-	)
-	(text "10u 1u 100n ingresso"
-		(exclude_from_sim no)
-		(at 40.132 205.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f6e8bcc3-5e2a-4d64-bf4c-b8070a6458fa")
 	)
 	(junction
 		(at 180.34 73.66)
@@ -8171,7 +8151,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 347.98 240.0299 0)
 			(effects
 				(font
@@ -8340,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "976"
 			(at 287.02 171.45 90)
 			(effects
 				(font
@@ -8425,7 +8405,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "123"
+		(property "Value" "120"
 			(at 255.27 58.4199 0)
 			(effects
 				(font
@@ -8642,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 358.14 125.73 90)
 			(effects
 				(font
@@ -8904,7 +8884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 217.17 0)
 			(effects
 				(font
@@ -8981,7 +8961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 347.98 184.1499 0)
 			(effects
 				(font
@@ -9054,7 +9034,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9216,7 +9196,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9379,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "976"
 			(at 287.02 227.33 90)
 			(effects
 				(font
@@ -9450,7 +9430,7 @@
 		(at 392.43 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b6dfec2-46fc-4153-b3c0-d34ad1967688")
@@ -9719,7 +9699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.8252 198.12 0)
 			(effects
 				(font
@@ -9889,7 +9869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 347.98 69.8499 0)
 			(effects
 				(font
@@ -9984,7 +9964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.2552 170.18 0)
 			(effects
 				(font
@@ -10126,7 +10106,7 @@
 				)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 358.14 181.61 90)
 			(effects
 				(font
@@ -10361,7 +10341,7 @@
 		(at 391.16 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b852d8b-adbd-4b14-8792-4448a0745fe9")
@@ -11002,7 +10982,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 142.24 17.78 90)
 			(effects
 				(font
@@ -11010,7 +10990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 23.368 90)
 			(effects
 				(font
@@ -11337,7 +11317,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11818,7 +11798,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11926,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 358.14 67.31 90)
 			(effects
 				(font
@@ -12268,7 +12248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.2552 198.12 0)
 			(effects
 				(font
@@ -12440,7 +12420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 162.56 0)
 			(effects
 				(font
@@ -12601,7 +12581,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 347.98 128.2699 0)
 			(effects
 				(font
@@ -12757,7 +12737,7 @@
 		(at 391.16 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "554abf43-984f-4d0b-b36c-eaccfd6035b9")
@@ -12876,7 +12856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 162.56 0)
 			(effects
 				(font
@@ -14079,7 +14059,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "976"
 			(at 287.02 57.15 90)
 			(effects
 				(font
@@ -14539,7 +14519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 133.35 77.4699 0)
 			(effects
 				(font
@@ -14625,7 +14605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 133.35 101.5999 0)
 			(effects
 				(font
@@ -14928,7 +14908,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 142.24 41.91 90)
 			(effects
 				(font
@@ -14936,7 +14916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 47.498 90)
 			(effects
 				(font
@@ -15837,7 +15817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.8252 170.18 0)
 			(effects
 				(font
@@ -16072,7 +16052,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16256,7 +16236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 133.35 29.2099 0)
 			(effects
 				(font
@@ -16635,7 +16615,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 142.24 90.17 90)
 			(effects
 				(font
@@ -16643,7 +16623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 95.758 90)
 			(effects
 				(font
@@ -16857,7 +16837,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17050,7 +17030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 217.17 0)
 			(effects
 				(font
@@ -17658,7 +17638,7 @@
 		(at 389.89 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4cc458b-967f-4643-97b1-88235d4f8cf7")
@@ -18158,7 +18138,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18413,7 +18393,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18642,7 +18622,7 @@
 				)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "240"
 			(at 358.14 237.49 90)
 			(effects
 				(font
@@ -18726,7 +18706,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "976"
 			(at 287.02 115.57 90)
 			(effects
 				(font
@@ -18894,7 +18874,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 142.24 66.04 90)
 			(effects
 				(font
@@ -18902,7 +18882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 71.628 90)
 			(effects
 				(font
@@ -19032,7 +19012,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19475,7 +19455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 133.35 53.3399 0)
 			(effects
 				(font
