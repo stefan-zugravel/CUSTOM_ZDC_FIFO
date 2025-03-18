@@ -1,0 +1,62 @@
+.subckt twosource_1 n1
+
+* filesource instance
+* A1 %vd([n1 0]) filesrc
+* AC voltage source (for AC simulations)
+VAC n1 0 AC 1
+
+* filesource non-interpolating model 
+.model filesrc filesource (file="normalized_signal.txt"
++ amploffset=[0.0] amplscale=[0.1]
++ timeoffset=0 timescale=1
++ timerelative=false amplstep=false)
+
+.ends
+
+
+.subckt twosource_2 n1
+
+* filesource instance
+* A1 %vd([n1 0]) filesrc
+* AC voltage source (for AC simulations)
+VAC n1 0 AC 1
+
+* filesource non-interpolating model 
+.model filesrc filesource (file="normalized_signal.txt"
++ amploffset=[0.0] amplscale=[0.1]
++ timeoffset=0 timescale=1
++ timerelative=false amplstep=false)
+
+.ends
+
+
+.subckt twosource_3 n1
+
+* filesource instance
+* A1 %vd([n1 0]) filesrc
+* AC voltage source (for AC simulations)
+VAC n1 0 AC 1
+
+* filesource non-interpolating model 
+.model filesrc filesource (file="normalized_signal.txt"
++ amploffset=[0.0] amplscale=[0.1]
++ timeoffset=0 timescale=1
++ timerelative=false amplstep=false)
+
+.ends
+
+
+.subckt twosource_4 n1
+
+* filesource instance
+* A1 %vd([n1 0]) filesrc
+* AC voltage source (for AC simulations)
+VAC n1 0 AC 1
+
+* filesource non-interpolating model 
+.model filesrc filesource (file="normalized_signal.txt"
++ amploffset=[0.0] amplscale=[0.1]
++ timeoffset=0 timescale=1
++ timerelative=false amplstep=false)
+
+.ends

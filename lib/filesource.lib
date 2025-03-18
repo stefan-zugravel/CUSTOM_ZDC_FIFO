@@ -1,0 +1,86 @@
+NAME_TABLE:
+C_Function_Name: cm_filesource
+Spice_Model_Name: filesource
+Description: "File Source"
+PORT_TABLE:
+Port_Name: out
+Description: "output"
+Direction: out
+Default_Type: v
+Allowed_Types: [v,vd,i,id]
+Vector: yes
+Vector_Bounds: [1 -]
+Null_Allowed: no
+PARAMETER_TABLE:
+Parameter_Name: timeoffset timescale
+Description: "time offset" "timescale"
+Data_Type: real real
+Default_Value: 0.0 1.0
+Limits: - -
+Vector: no no
+Vector_Bounds: - -
+Null_Allowed: yes yes
+PARAMETER_TABLE:
+Parameter_Name: timerelative amplstep
+Description: "relative time" "step amplitude"
+Data_Type: boolean boolean
+Default_Value: FALSE FALSE
+Limits: - -
+Vector: no no
+Vector_Bounds: - -
+Null_Allowed: yes yes
+PARAMETER_TABLE:
+Parameter_Name: amploffset amplscale
+Description: "ampl offset" "amplscale"
+Data_Type: real real
+Default_Value: - -
+Limits: - -
+Vector: yes yes
+Vector_Bounds: [1 -] [1 -]
+Null_Allowed: yes yes
+PARAMETER_TABLE:
+Parameter_Name: file
+Description: "file name"
+Data_Type: string
+Default_Value: "filesource.txt"
+Limits: -
+Vector: no
+Vector_Bounds: -
+Null_Allowed: yes
+
+
+
+
+Description: The File Source is similar to the Piece-Wise Linear (PWL) Source, except
+that the waveform data is read from a file instead of being taken from parameter
+vectors. The file format is line oriented ASCII. ‘#’ and ‘;’ are comment characters;
+all characters from a comment character until the end of the line are ignored. Each
+line consists of two or more real values. The first value is the time; subsequent
+values correspond to the outputs. Values are separated by spaces. Time values are
+absolute and must be monotonically increasing, unless timerelative is set to TRUE,
+in which case the values specify the interval between two samples and must be
+positive. Waveforms may be scaled and shifted in the time dimension by setting
+timescale and timeoffset.
+Amplitudes can also be scaled and shifted using amplscale and amploffset. Am-
+plitudes are normally interpolated between two samples, unless amplstep is set to
+TRUE.
+Note: The file named by the parameter filename in file="filename" is sought after
+according to a search list described in12.1.3.
+Example SPICE Usage:
+a8 %vd([1 0 2 0]) filesrc
+.
+.
+.model filesrc filesource (file="sine.m" amploffset=[0 0] amplscale=[1 1]
++ timeoffset=0 timescale=1
++ timerelative=false amplstep=false)
+Example input file:
+12.2. ANALOG MODELS 199
+# name: sine.m
+# two output ports
+# column 1: time
+# columns 2, 3: values
+0 0 1
+3.90625e-09 0.02454122852291229 0.9996988186962042
+7.8125e-09 0.04906767432741801 0.9987954562051724
+1.171875e-08 0.07356456359966743 0.9972904566786902
+...
