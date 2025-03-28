@@ -12,8 +12,8 @@
       ],
       "dottedSecondary": true,
       "legend": {
-        "x": 1235,
-        "y": 73
+        "x": 967,
+        "y": 126
       },
       "margins": {
         "bottom": 45,
@@ -62,8 +62,8 @@
       ],
       "dottedSecondary": true,
       "legend": {
-        "x": 1283,
-        "y": 71
+        "x": 661,
+        "y": 141
       },
       "margins": {
         "bottom": 45,
@@ -102,6 +102,16 @@
         {
           "color": "rgb(228, 26, 28)",
           "signal": "V(Net-_J5-Pad1_) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(Net-_J6-Pad1_) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(Net-_J6-Pad1_) (gain)",
           "trace_type": 521
         }
       ]
